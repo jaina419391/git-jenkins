@@ -1,4 +1,4 @@
-"#!/usr/bin/env/ groovy
+#!/usr/bin/env/ groovy
 
 import hudson.model.*
 import hudson.EnvVars
@@ -14,4 +14,4 @@ node{
     stage('Package'){
         sh 'mvn package'      
     }
-}"
+}
